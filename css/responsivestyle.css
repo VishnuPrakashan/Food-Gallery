@@ -1,0 +1,56 @@
+@media(max-width:980px){
+    #opac{
+        position: absolute;
+        right: 60px;
+    }
+    .col{
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width:1160px) and (min-width:870px){
+    
+    #opac{   
+        position: absolute;
+        right: 60px;
+        padding-right: 150px;
+        padding-left: 150px;
+        width: 450px;
+    }
+
+    .col-1{
+        position: relative;
+        right: 20px;
+    }
+    
+    .col-2{
+        position: relative;
+        left: 20px;
+    }
+    .col-3{
+        position: relative;
+        right: 20px;
+    }
+    
+    .col-4{
+        position: relative;
+        left: 20px;
+    }
+    
+} 
+@media screen and (max-width:420px) and (min-width:320px){
+    #opac{   
+        position: relative;
+        right: 28px;
+    }
+    #head{
+        max-width: 100%;
+        height: 50px;
+        text-align:left;
+        padding: 10px 0px 0px 40px;
+    }
+    .col{
+        width: 220px;
+        height: 380px;
+    }
+}

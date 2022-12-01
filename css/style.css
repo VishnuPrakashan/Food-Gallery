@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Rubik+Marker+Hatch&family=Ultra&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("./images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 40em;
+}
+
+#head{
+   background-color: orange;
+   max-width: 100%;
+   height: 50px;
+   color:rgb(255, 60, 0);
+   text-align:left;
+   padding: 10px 0px 0px 80px;
+   font-family: 'Playfair Display SC', serif;
+   font-size: 30px;
+}
+span{
+    font-size: 38px;
+}
+#opac{
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 60px;
+    padding: 40px;
+    max-width: 85%;
+    max-height: 510vh;
+    background : rgba(0,0,0,0.85);
+    border: 2px solid black;
+}
+.parent{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+.col{
+    width: 220px;
+    height: 350px;
+    background-color: white;
+    border-radius: 10px;
+    transition: all 1s ease;
+    box-shadow: 2px 2px 10px black;
+}
+.col:hover{
+    transform: scale(1.08);
+}
+.col-1 img{
+    width: 220px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.col-1 button{
+    margin-top: 10px;
+}
+.col-2 img{
+    width: 220px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.col-2 button{
+    margin-top: 10px;
+}
+.col-3 img{
+    width: 220px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.col-3 button{
+    margin-top: 10px;
+}
+.col-4 img{
+    width: 220px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.col-4 button{
+    margin-top: 10px;
+}
+h2{
+    font-weight: bold;
+    text-align: center;
+    color: orangered;
+    margin: 5px 0px 5px 0px;
+}
+#menu{
+    color: orange;
+    text-align: center;
+    margin-top: -20px;
+    font-family: 'Courgette', cursive;
+}
+p{
+    padding: 0 10px 0 10px;
+    text-align: justify;
+}
+button{
+    width: 100px;
+    height: 30px;
+    margin-left: 60px;
+    border-radius: 30px;
+    background-color: gold;
+    border: 2px solid gold;
+    color: black;
+}
+button:hover{
+    background-color: white;
+    border: 2px solid gold;
+    color: gold;
+}
+
